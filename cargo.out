@@ -1,0 +1,25 @@
+   Compiling cfg_aliases v0.2.1 (/home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases)
+     Running `rustc --crate-name cfg_aliases --edition=2018 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --crate-type lib --emit=dep-info,metadata,link -C embed-bitcode=no -C debuginfo=2 '--deny=clippy::str_to_string' -C metadata=ca5dfbcd48c90d41 -C extra-filename=-ca5dfbcd48c90d41 --out-dir /home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases/target.tmp/x86_64-unknown-linux-gnu/debug/deps --target x86_64-unknown-linux-gnu -C incremental=/home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases/target.tmp/x86_64-unknown-linux-gnu/debug/incremental -L dependency=/home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases/target.tmp/x86_64-unknown-linux-gnu/debug/deps -L dependency=/home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases/target.tmp/debug/deps`
+    Finished dev [unoptimized + debuginfo] target(s) in 0.07s
+   Compiling cfg_aliases v0.2.1 (/home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases)
+     Running `rustc --crate-name test --edition=2018 tests/test.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 '--deny=clippy::str_to_string' --test -C metadata=d12c142292568439 -C extra-filename=-d12c142292568439 --out-dir /home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases/target.tmp/x86_64-unknown-linux-gnu/debug/deps --target x86_64-unknown-linux-gnu -C incremental=/home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases/target.tmp/x86_64-unknown-linux-gnu/debug/incremental -L dependency=/home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases/target.tmp/x86_64-unknown-linux-gnu/debug/deps -L dependency=/home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases/target.tmp/debug/deps --extern cfg_aliases=/home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases/target.tmp/x86_64-unknown-linux-gnu/debug/deps/libcfg_aliases-ca5dfbcd48c90d41.rlib`
+     Running `rustc --crate-name cfg_aliases --edition=2018 src/lib.rs --error-format=json --json=diagnostic-rendered-ansi,artifacts,future-incompat --emit=dep-info,link -C embed-bitcode=no -C debuginfo=2 '--deny=clippy::str_to_string' --test -C metadata=814b0d2c82d8afa7 -C extra-filename=-814b0d2c82d8afa7 --out-dir /home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases/target.tmp/x86_64-unknown-linux-gnu/debug/deps --target x86_64-unknown-linux-gnu -C incremental=/home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases/target.tmp/x86_64-unknown-linux-gnu/debug/incremental -L dependency=/home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases/target.tmp/x86_64-unknown-linux-gnu/debug/deps -L dependency=/home/kunals/git/android-lbo-repro/external/rust/crates/cfg_aliases/target.tmp/debug/deps`
+    Finished dev [unoptimized + debuginfo] target(s) in 0.22s
+    Finished test [unoptimized + debuginfo] target(s) in 0.00s
+     Running unittests src/lib.rs (target.tmp/x86_64-unknown-linux-gnu/debug/deps/cfg_aliases-814b0d2c82d8afa7)
+0 tests, 0 benchmarks
+     Running tests/test.rs (target.tmp/x86_64-unknown-linux-gnu/debug/deps/test-d12c142292568439)
+basic_setup: test
+
+1 test, 0 benchmarks
+   Doc-tests cfg_aliases
+src/lib.rs - (line 18): test
+src/lib.rs - (line 40): test
+src/lib.rs - (line 55): test
+src/lib.rs - (line 75): test
+src/lib.rs - (line 92): test
+src/lib.rs - cfg_aliases (line 129): test
+src/lib.rs - cfg_aliases (line 148): test
+src/lib.rs - cfg_aliases (line 160): test
+
+8 tests, 0 benchmarks
